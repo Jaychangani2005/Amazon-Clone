@@ -13,7 +13,7 @@ link[rel="icon"]::after {
     display: block;
     width: 16px; /* Adjust the width as needed */
     height: 10px; /* Adjust the height as needed */
-    background-image: url('/AMAZON Clone/image/titlelogo.jpg');
+    background-image: url('image/titlelogo.jpg');
     background-size: cover;
     border-radius: 20px; /* Optional: Create a circular shape */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle box shadow */
@@ -46,7 +46,7 @@ link[rel="icon"]::after {
 }
 
 .logo {
-    background-image: url("/AMAZON Clone/image/amazon_logo.png");
+    background-image: url("image/amazon_logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 60px;
@@ -226,7 +226,7 @@ span {
 
 /* hero-section */
 .hero-section {
-    background-image: url("/AMAZON Clone/image/banner2.jpg");
+    background-image: url("image/banner2.jpg");
     width: 98.5%;
     background-size: cover;
     height: 600px;
@@ -429,7 +429,7 @@ span {
 
 
 .contant .logo {
-    background-image: url("/AMAZON Clone/image/amazon_logo.png");
+    background-image: url("image/amazon_logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 50px;
