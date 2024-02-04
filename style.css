@@ -590,6 +590,140 @@ span {
     color:#ddd ;
 }
 
+.laptop-message  {
+    display: block;
+}
+
+/* personal Footer */
+#footer .footer {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#footer .footer .info {
+    margin: 20px;
+}
+
+#footer .footer .social {
+    margin: 20px;
+}
+
+#footer .footer .video {
+    margin: 10px;
+}
+
+#footer .footer .info p {
+    margin: 3px;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+#footer .footer .social img {
+    width: 30px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+
+}
+
+#footer .footer .social p {
+    margin: 7px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+
+}
+
+#footer .footer .video video {
+    display: block;
+    margin: 10px;
+    width: 150px;
+    height: auto;
+    outline: none;
+    border: none;
+}
+
+/* Utility Classes */
+.h-primary {
+    font-size: 3rem;
+    padding: 12px;
+}
+
+/* social media */
+
+.card {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    width: 150px;
+}
+
+.card svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.card .social-link2,
+.card .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+
+.card svg {
+    transform: scale(1);
+}
+
+.card .social-link2:hover {
+    background-color: #3d4a57;
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link4:hover {
+    background-color: #0a66c2;
+    animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.4);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    80% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .jc-logo{
     background-color: black;
 }
@@ -603,9 +737,9 @@ span {
     border: none;
 }
 
-.laptop-message  {
-    display: block;
-}
+
+
+
 
 @media only screen and (min-width: 920px) {
     .mobile-message {
@@ -630,7 +764,7 @@ span {
         top: 38%;
         left: 5%;
         transform: translate(-3%, -30%);
-        z-index: 9999;
+        z-index: 9;
 
         overflow-y: auto;
         max-height: 90vh; /* Set a maximum height to limit scrolling */
@@ -656,5 +790,8 @@ span {
         img{
             width: 80%;
         }
+
+        
+
     }
 }
