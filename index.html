@@ -27,6 +27,9 @@
 <body>
 
 
+    
+    
+    
     <div class="mobile-message">
         <!-- <img class="mobile-img" src="image\10798281_19362653.jpg" alt=""> -->
         <img class="mobile-img" src="image\11235349_10590.jpg" alt="">
@@ -43,6 +46,20 @@
     </div>
 
     <div class="laptop-message">
+
+        <div class="overlay" id="customMessageOverlay">
+            <div class="popup">
+                <h3 style="font-size: 38px;margin-bottom: 10px; font-family: 'Akatab', sans-serif;">Hello there! </h3>
+                <p class="">
+                    Experience a well-crafted Amazon website clone that was put together using HTML, CSS, and JavaScript to take you on a smooth journey across Amazon.</p>
+                <button class="pop" onclick="closeCustomMessage()">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg> Explore me
+                </button>
+            </div>
+        </div>
 
         <header>
             <div class="nav">
@@ -622,7 +639,7 @@
     <section id="footer">
         <div class="footer">
             <div class="info">
-                <p>&copy; Microsoft Clone</p>
+                <p>&copy; Amazon Clone</p>
                 <p>Website by Jay Changani</p>
             </div>
             <div class="video">
@@ -656,7 +673,20 @@
     </footer>
 
     </div>
-    
+    <script>
+        // Function to show the custom message overlay
+        function showCustomMessage() {
+            document.getElementById('customMessageOverlay').style.display = 'flex';
+        }
+
+        // Function to close the custom message overlay
+        function closeCustomMessage() {
+            document.getElementById('customMessageOverlay').style.display = 'none';
+        }
+
+        // Call the showCustomMessage function when the page loads
+        window.onload = showCustomMessage;
+    </script>
 </body>
 
 </html>
