@@ -632,7 +632,9 @@ span {
         transform: translate(-3%, -30%);
         z-index: 9999;
 
-        
+        overflow-y: auto;
+        max-height: 90vh; /* Set a maximum height to limit scrolling */
+
 
         /* margin-top: 15%; */
         display: flex;
